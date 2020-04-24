@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
-// import Main from './components/main';
-import LandingPage from './landingpage';
-import Contact from './contact';
-import Resume from './resume';
+import Main from './components/main';
 
 // holds routing for all pages
 import {Switch, Route, Link} from 'react-router-dom';
@@ -28,12 +25,7 @@ function App() {
         </Drawer>
         <Content>
           <div className="page-content"/>
-          <Switch>
-            <Route exact path="/" component={LandingPage} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/resume" component={Resume} />
-          </Switch>
-          // <Main/>
+          <Main/>
         </Content>
       </Layout>
     </div>
