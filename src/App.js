@@ -1,35 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
-import Main from './components/main';
+import Sidebar from './components/sidebar'
+import Introduction from './components/introduction'
+import About from './components/about'
+import Timeline from './components/timeline'
 
-// holds routing for all pages
-import {Switch, Route, Link} from 'react-router-dom';
-
-
-function App() {
-  return (
-    <div className = "demo-big-content">
-      <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My portfolio</Link>} scroll>
-          <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/contact">Contact Me</Link>
-          </Navigation>
-        </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'Orange'}} to="/">My portfolio</Link>}>
-          <Navigation>
-            <Link to="/resume">Resume</Link>
-            <Link to="/contact">Contact Me</Link>
-          </Navigation>
-        </Drawer>
-        <Content>
-          <div className="page-content"/>
-          <Main/>
-        </Content>
-      </Layout>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div id="colorlib-page">
+        <div id="container-wrap">
+         	<Sidebar />
+				<div id="colorlib-main">
+					<Introduction />
+					<About />
+					<Timeline />
+          	</div>
+      	</div>
+      </div>
+    );
+  }
 }
 
 export default App;
