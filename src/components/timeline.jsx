@@ -35,19 +35,37 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
+                        <h2>Full-Stack Engineer at Securely Yours<span>August 2020 - Present</span></h2>
+                        <ul>
+                          <li>
+                          Currently developing a SaaS solution that features an employee wellness dashboard to be displayed in an interactive website using dynamic data visualization techniques.
+                          </li>
+                          <li>
+                          Leading the designing, product development & planning efforts.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
                         <h2>Software Engineer Co-op at NEC Energy Solutions <span>August 2019 - January 2020</span></h2>
                         <ul>
                           <li>
-                          Implemented a predictive machine learning pipeline for improving battery’s warranty model
+                          Implemented a predictive machine learning pipeline for improving battery’s warranty model.
                           </li>
                           <li>
-                          Used Python frameworks & libraries to build the application using Agile methodologies & version control
+                          Used Python frameworks & libraries to build the application using Agile methodologies & version control.
                           </li>
                           <li>
-                          Performed all phases of machine learning based data analysis for predicting remaining battery capacities of home energy storage solutions, using LSTM Neural Network
+                          Performed all phases of machine learning based data analysis for predicting remaining battery capacities of home energy storage solutions, using LSTM Neural Network.
                           </li>
                           <li>
-                          Achieved a prediction accuracy of 98.48% from the final model to predict when battery storage devices would reach 50% of their original capacity
+                          Achieved a prediction accuracy of 98.48% from the final model to predict when battery storage devices would reach 50% of their original capacity.
                           </li>
                         </ul>
                       </div>
@@ -59,10 +77,28 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Research Assistant at Rochester Indtitute of Technology <span>April 2019 - August 2020</span></h2>
+                        <h2>Research Assistant at Rochester Institute of Technology <span>April 2019 - August 2020</span></h2>
                         <ul>
                           <li>
-                          Applied SVM, custom loss functions, & optimization techniques on a research dataset
+                          Applied SVM, custom loss functions, & optimization techniques on a research dataset.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Software Developer at DigiStreet <span>Jul 2015 - April 2016</span></h2>
+                        <ul>
+                          <li>
+                          Worked as a full-stack developer for building internal tools to help with data management & customer project tracking.
+                          </li>
+                          <li>
+                          Designed database schema & built website for allowing users to access company database.
                           </li>
                         </ul>
                       </div>
