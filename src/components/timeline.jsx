@@ -35,7 +35,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Full-Stack Engineer at Securely Yours<span>August 2020 - Present</span></h2>
+                        <h2>Full-Stack Engineer at Securely Yours <span>August 2020 - Present</span></h2>
                         <ul>
                           <li>
                           Currently developing a SaaS solution that features an employee wellness dashboard to be displayed in an interactive website using dynamic data visualization techniques.
