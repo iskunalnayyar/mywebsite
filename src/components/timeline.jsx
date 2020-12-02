@@ -23,9 +23,11 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Rochester Institute of Technology <span>August 2017-May 2020</span></h2>
                         <li>
-                        I graduated from Rochester Institute of Technology on May 8th 2020. I have an Advanced diploma in Big Data Analytics.</li>
+                        I graduated from Rochester Institute of Technology on May 8th 2020. I have an Advanced diploma in Big Data Analytics.
+                        </li>
                         <li>
-                        I have taken the following courses during my Master's :  Neural Network & Machine Learning, Big Data Analytics, Web Services, Intelligent Systems, Computer Networks, Computational Problem Solving, Algorithms, Object Oriented Programing</li>
+                        I have taken the following courses during my Master's :  Neural Network & Machine Learning, Big Data Analytics, Web Services, Intelligent Systems, Computer Networks, Computational Problem Solving, Algorithms, Object Oriented Programing.
+                        </li>
                       </div>
                     </div>
                   </article>
@@ -57,9 +59,6 @@ export default class Timeline extends Component {
                         <ul>
                           <li>
                           Implemented a predictive machine learning pipeline for improving battery’s warranty model.
-                          </li>
-                          <li>
-                          Used Python frameworks & libraries to build the application using Agile methodologies & version control.
                           </li>
                           <li>
                           Performed all phases of machine learning based data analysis for predicting remaining battery capacities of home energy storage solutions, using LSTM Neural Network.
@@ -112,7 +111,8 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>University of Mumbai <span>August 2011 - April 2015</span></h2>
                         <li>
-                        I have completed my under graduation in Computer Science from University of Mumbai.</li>
+                        I have completed my under graduation in Computer Science from University of Mumbai.
+                        </li>
                       </div>
                     </div>
                   </article>
